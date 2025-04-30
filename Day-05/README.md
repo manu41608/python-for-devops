@@ -9,10 +9,11 @@ Using getopt module
 Using argparse module
 ##Using sys.argv
 
-``` import sys
+```
+import sys
 
-  print(sys.argv[1])
+print(sys.argv[1])
   
-  print(sys.argv[2])
+print(sys.argv[2])
   ```
   python index.py 1 2
