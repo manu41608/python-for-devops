@@ -16,7 +16,9 @@ len(sys.argv) provides the number of command line arguments.
 sys.argv[0] is the name of the current Python script.
 
 ` import sys
+
   print(sys.argv[1])
+  
   print(sys.argv[2])
   `
   python index.py 1 2
