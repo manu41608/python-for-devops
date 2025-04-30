@@ -17,3 +17,22 @@ print(sys.argv[1])
 print(sys.argv[2])
   ```
   python index.py 1 2
+
+
+# Environment Variables in Python
+
+Environment variables are key-value pairs that live in our system’s environment. Python reads some of these variables at startup to determine how to behave, for example, where to look for modules or whether to enter interactive mode.
+
+
+Example:
+
+
+export token="123drr”
+
+```
+import os
+
+print(os.getenv("token"))
+
+```
+
