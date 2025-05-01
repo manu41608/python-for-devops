@@ -1,6 +1,6 @@
 # Lists and Tuples
 
-List in Python
+# List in Python
 List is a container that contains different types of objects. In it, the elements are separated by commas and stored within square brackets. Each element of a list has a unique position index, starting from 0.
 
 Example
@@ -22,7 +22,7 @@ Original list: ['a', 'b', 'c', 'd', 'e']
 After modifying list: [10, 'b', 'c', 'd', 'e', 5]
 
 ```
-Tuples in Python
+# Tuples in Python
 Tuple is also similar to a list but it contains immutable objects and they are stored within parentheses. Those objects that cannot be modified by any means are called as immutable.
 
 Example
